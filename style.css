@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+    font-weight: 700px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+    background-color: cyan;
+    height: 60px;
+    
+
+   
+}
+.icon img{
+    height: 40px;
+    font-weight: 40px;
+    border: 2px solid green;
+    border-radius: 50px;
+}
+.search img{
+    height: 30px;
+    font-weight: 30px;
+     border: 2px solid green;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10PX;
+}
+.nav{
+    display: flex;
+    padding-right: 10px;
+
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;  
+}
+  .search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  .search input{
+    height: 30px;
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+  } 
+  .nav ul li a{
+    text-decoration: none;
+  
+  }
+  .nav ul li a:hover{
+    color:rgb(247, 4, 4);
+    transform: translateY(-8px);
+    border-bottom:5px solid white;
+    cursor: pointer;
+
+  }
+  .homepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(209, 199, 199);
+    
+   
+  }
+  .homepage h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+
+  }
+  .homepage a{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 3px solid rgb(212, 197, 197);
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 200px;
+  }
+  .homepage img{
+    height: 300px;
+    width: 400px;
+    border: none;
+
+
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+
+  }
+  .homepage p{
+    margin-bottom: 10px;
+  }
+  .inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+  .inline h1{
+    font-size: 20px;
+    font-weight: 800px bold;
+
+  }
+  .inline a{
+    
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+   
+  }
+  .brand{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/girl.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    
+  
+
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .item h1{
+    font-size: 45px;
+    color:whitesmoke;
+  }
+  .item a{
+    background-color: rgb(147, 116, 38);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    text-decoration: none;
+
+
+  }
+  .left a:hover{
+    transform: translateX(-3);
+    color:rgb(239, 77, 77);
+
+  }
+  .inline a:hover{
+    transform: translateX(-3);
+    color: rgb(236, 69, 69);
+
+  }
+  .brand a:hover{
+    transform: translateX(-3);
+    color: rgb(236, 69, 69);
+  }
+
+.profile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 30px 20px;
+  background-color: rgb(243, 238, 238);
+  
+}
+.page{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.page p{
+  font-size: 20px;
+  font-weight: 80px;
+}
+.testimonial{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  border: 2px solid rgb(240, 235, 235);
+
+}
+.testimonial h1{
+  font-size: 20px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.topper{
+  display: flex;
+  gap: 15px;
+} 
+.photo img{
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.photo{
+  width: 250px;
+  padding-left: 20px;
+  width: 300px;
+
+}
+.arrange{
+  background-color: rgb(237, 232, 232);
+  margin-top: 20px;
+}
+.photo p{
+  color:black;
+  font-weight: 549;
+}
+.topright{
+  display: flex;
+  gap: 15px;
+
+  
+}
+.flat{
+  display: flex;
+  gap: 10px;
+  
+}
+.final{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
+}
+.subicons img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.view img{
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+
+}
+.view{
+  width: 300px;
+}
+.between{
+  width: 950px;
+}
+.between h1{
+  padding-bottom: 20px;
+}
+.subicons{
+  padding-top: 20px;
+  
+}
+.chat{
+  width: 100px;
+}
+.chat p{
+  padding-bottom: 150px;
+}
+.chat a{
+  background-color:black;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.foot3 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 400px;
+  justify-content: space-between;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.foot1 h1{
+  padding:20px 0px;
+}
+.foot1 p{
+  line-height: 50px;
+}
+.foot2 {
+  padding-top: 20px;
+}
+.foot2 p{
+  line-height: 50px;
+}
+.foot2 h1{
+padding:20px 0px;
+}
+.foot3{
+  padding: 100px;
+  padding-right: 150px;
+}
+
+
